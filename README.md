@@ -12,7 +12,8 @@ S3 Bucket Website Configuration: Enables the static website hosting feature on t
 S3 Bucket Public Access Block: Explicitly manages public access settings to allow public read access for website delivery.
 S3 Bucket Policy: Grants s3:GetObject permissions to anonymous users so the website is publicly readable.
 
-🛠️ Prerequisites
+🛠️ Prerequisites:
+'''text
 Before you begin, ensure you have the following installed and configured:
 Terraform: Version ~> 1.0 or higher installed locally.
 AWS CLI: Configured with administrative or appropriate IAM permissions to manage S3 buckets.
