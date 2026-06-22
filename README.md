@@ -51,7 +51,7 @@ To make editing a breeze, install these extensions from the VS Code Marketplace:
 
 🧩 HashiCorp Terraform: Enables syntax highlighting, autocompletion, and real-time formatting (terraform fmt) as you type.
 
-⚡ AWS Toolkit: (Optional) Provides integrated AWS resource management right from your sidebar.
+⚡ AWS Toolkit: Provides integrated AWS resource management right from your sidebar.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
