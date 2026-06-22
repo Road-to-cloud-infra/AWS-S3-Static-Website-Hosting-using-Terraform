@@ -7,10 +7,14 @@ This project eliminates manual infrastructure management, spinning up a fully fu
 
 🌟 Project Overview:
 
+
 This repository houses the native Terraform configurations required to automatically provision, configure, and secure a cost-effective static website.
 
+
 💡 What Makes It Unique?
+
 Zero-File Footprint: You don't need an external source or src/ directory. Terraform dynamically injects and provisions index.html and error.html straight into the cloud infrastructure.
+
 100% Pure IaC: No GitHub Actions, third-party tooling, or complex CI/CD dependencies are required to get your site live.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -29,14 +33,25 @@ The infrastructure deployed by this Terraform workflow implements a robust, secu
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🛠️ Prerequisites:
-Before executing the code, ensure your local environment has the following:
+🛠️ Prerequisites & Workspace Setup:
 
-🏗️ Terraform: Core binary (>= 1.0) installed locally.
+To run this project seamlessly within Visual Studio Code, ensure your local development environment is configured with the following tools:
 
-💻 AWS CLI: Installed and authenticating via an IAM identity with permissions to manage S3 buckets and policies.
+🧰 Required Software:
 
-☁️ AWS Account: An active target AWS environment.
+🗃️ Visual Studio Code: The primary IDE used for writing and executing the code.
+
+🏗️ Terraform CLI: Core binary (>= 1.0) installed on your local machine and added to your system's PATH.
+
+💻 AWS CLI: Installed locally to manage authentication.
+
+🔌 Recommended VS Code Extensions:
+
+To make editing a breeze, install these extensions from the VS Code Marketplace:
+
+🧩 HashiCorp Terraform: Enables syntax highlighting, autocompletion, and real-time formatting (terraform fmt) as you type.
+
+⚡ AWS Toolkit: (Optional) Provides integrated AWS resource management right from your sidebar.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
