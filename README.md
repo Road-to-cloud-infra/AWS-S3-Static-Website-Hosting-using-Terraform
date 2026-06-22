@@ -1,20 +1,22 @@
-🚀 AWS S3 Static Website Hosting via Terraform
+🚀 AWS S3 Static Website Hosting via Terraform:
+
 Welcome to your automated Infrastructure as Code (IaC) repository for provisioning and hosting a static website on Amazon Web Services (AWS) using HashiCorp Terraform.
 This project eliminates manual infrastructure management, spinning up a fully functioning, public-facing website entirely from code.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🌟 Project Overview
+🌟 Project Overview:
+
 This repository houses the native Terraform configurations required to automatically provision, configure, and secure a cost-effective static website.
 
 💡 What Makes It Unique?
 Zero-File Footprint: You don't need an external source or src/ directory. Terraform dynamically injects and provisions index.html and error.html straight into the cloud infrastructure.
-
 100% Pure IaC: No GitHub Actions, third-party tooling, or complex CI/CD dependencies are required to get your site live.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🏗️ Architecture Design
+🏗️ Architecture Design:
+
 The infrastructure deployed by this Terraform workflow implements a robust, secure, and modern AWS S3 layout:
 
 🪣 Amazon S3 Bucket: Serves as the high-availability storage layer for web assets.
@@ -27,7 +29,7 @@ The infrastructure deployed by this Terraform workflow implements a robust, secu
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🛠️ Prerequisites
+🛠️ Prerequisites:
 Before executing the code, ensure your local environment has the following:
 
 🏗️ Terraform: Core binary (>= 1.0) installed locally.
@@ -38,7 +40,7 @@ Before executing the code, ensure your local environment has the following:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-📂 Terraform Structure
+📂 Terraform Structure:
 
 ```text
 .
