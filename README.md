@@ -13,7 +13,7 @@ S3 Bucket Public Access Block: Explicitly manages public access settings to allo
 S3 Bucket Policy: Grants s3:GetObject permissions to anonymous users so the website is publicly readable.
 
 🛠️ Prerequisites:
-'''text
+```text
 Before you begin, ensure you have the following installed and configured:
 Terraform: Version ~> 1.0 or higher installed locally.
 AWS CLI: Configured with administrative or appropriate IAM permissions to manage S3 buckets.
