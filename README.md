@@ -19,11 +19,11 @@ AWS CLI: Configured with administrative or appropriate IAM permissions to manage
 AWS Account: An active AWS account.
 
 📂 Terraform Structure
-├── main.tf               # Main Terraform configuration (S3 resources & policies)
-├── variables.tf          # Input variables (Bucket name, AWS region, tags)
-├── outputs.tf            # Output values (Website endpoint URL)
-├── providers.tf          # AWS Provider and Terraform version constraints
-├── terraform.tfvars      # (Ignored) Environment-specific variable values
-└── src/                  # Website source code directory
-    ├── index.html        # Main landing page
-    └── error.html        # Custom 404 error page
+
+```text
+.
+├── main.tf           # Core logic (S3 bucket, hosting config, policy, inline HTML objects)
+├── outputs.tf        # Output variables (Prints out the live S3 Website URL)
+├── providers.tf      # Defines the AWS provider version constraints
+├── terraform.tfvars  # Environment-specific variables (Your specific bucket name/region)
+└── variables.tf      # Input variable definitions (Names, regions, and resource tags)
