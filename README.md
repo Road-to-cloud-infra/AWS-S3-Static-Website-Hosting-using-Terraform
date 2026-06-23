@@ -3,6 +3,8 @@
 Welcome to your automated Infrastructure as Code (IaC) repository for provisioning and hosting a static website on Amazon Web Services (AWS) using HashiCorp Terraform.
 This project eliminates manual infrastructure management, spinning up a fully functioning, public-facing website entirely from code.
 
+<img width="1543" height="673" alt="diag" src="https://github.com/user-attachments/assets/dc902472-e512-4e9a-bc08-41520bea25d0" />
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🌟 Project Overview:
