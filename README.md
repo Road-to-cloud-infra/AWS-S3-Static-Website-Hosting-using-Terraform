@@ -60,7 +60,7 @@ To make editing a breeze, install these extensions from the VS Code Marketplace:
 📂 Terraform Structure:
 
 ```text
-.
+AWS S3 Static Website/
 ├── main.tf           # Core logic (S3 bucket, hosting config, policy, inline HTML objects)
 ├── outputs.tf        # Output variables (Prints out the live S3 Website URL)
 ├── providers.tf      # Defines the AWS provider version constraints
