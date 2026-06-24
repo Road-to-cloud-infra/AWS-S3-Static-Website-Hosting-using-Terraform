@@ -388,3 +388,8 @@ When your deployment finishes successfully, your VS Code terminal will display a
 -  _Hold Ctrl (or Cmd on Mac) and click the URL directly inside your VS Code integrated terminal to open it in your browser._
 
 -  _To test your custom 404 setup, add a random path to the end of your link (e.g., /testing-error-page) to see your inline error.html handle the request flawlessly._
+
+
+### Verify the Output:
+
+<img width="722" height="373" alt="image" src="https://github.com/user-attachments/assets/899fdbcb-9697-4886-b840-378dde82f434" />
